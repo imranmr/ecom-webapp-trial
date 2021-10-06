@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h4 [style.color] = "'brown'">Style binding</h4>
+            <p [style.color] = " 'green'" [style.font-size.px] = "'25'">{{username}}</p>
+            <p [style.color] = " color.blue" [style.font-size.px] = "age">{{age}}</p>
+            <p [style.color] = "isMarried? color.red : color.green" [style.font-size.px] = "'25'">{{isMarried}}</p>
+            <p [style.font-weight] ="'bold'">{{message}}</p>
+        </div>
+        <div class="col">
+            <h4 [class] ="'bg-one'">Class binding</h4>
+            <p [className] = "'bg-two'">{{username}}</p>
+            <p [class] = "'bg-one bg-three'">{{age}}</p>
+            <p [class] = "isMarried? 'bg-one' : 'bg-two'">{{isMarried}}</p>
+            <p>{{message}}</p>
+        </div>
+    </div>
+</div>

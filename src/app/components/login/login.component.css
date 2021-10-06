@@ -1,0 +1,11 @@
+.login-form{
+    margin-top: 20px;
+    border:2px solid green;
+    padding: 20px;
+
+}
+.error{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
